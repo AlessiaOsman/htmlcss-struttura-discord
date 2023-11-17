@@ -6,7 +6,7 @@
 }
 
 :root{
-    --bg-yellow: yellow;
+    
 }
 
 /*Generics*/
@@ -19,7 +19,6 @@ header{
 }
 
 footer{
-   background-color: black; 
    height: 100px;
    border-top: 1px solid white;
    display: flex;
@@ -30,11 +29,25 @@ footer{
 /*Utils*/
 
 .bg-color-yellow{
-    background-color: var(--bg-yellow);
+    background-color: yellow
+}
+
+.bg-color-lightgrey{
+    background-color: lightgray
+}
+
+.bg-color-black{
+    background-color: black;
 }
 
 .border-dashed{
     border: 1px dashed black;
+}
+
+.box{
+    padding: 30px 0;
+    display: flex;
+    justify-content: center
 }
 
 /*Header*/
@@ -57,6 +70,7 @@ footer{
     flex-basis: 20%;
 }
 
+
 /*Footer*/
 
 .footer-container{
@@ -70,4 +84,72 @@ footer{
     width: 150px;
     height: 30px;
     background-color: pink;
+}
+
+/*Main*/
+.min-h-sx{
+    min-height: 400px;
+}
+
+.min-h-m{
+    min-height: 500px;
+}
+
+
+.box-blue{
+    background-color: blue;
+}
+
+.box-blue div{
+    width: 60%;
+    background-color: #E75480;
+}
+
+.main-box{
+    display: flex;
+    justify-content: center;
+}
+
+.main-box > div {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.column-pink{
+    flex-basis: 40%;
+    background-color: lightpink;
+}
+
+.column-blue{
+    flex-basis: 60%;
+    background-color: #007fff;
+}
+
+.box-big{
+    min-height: 600px;
+}
+
+.box-big div{
+    flex-basis: 50%;
+    background-color: green;
+}
+
+.box-multicolumn > div {
+    flex-basis: 50%;
+    display: flex;
+}
+
+.column-left{
+    flex-basis: 30%;
+    background-color: pink;
+}
+
+.column-right{
+    display: flex;
+    flex-basis: 70%;
+}
+
+.column-right div{
+    background-color: aquamarine;
+    flex-basis: 25%;
 }
