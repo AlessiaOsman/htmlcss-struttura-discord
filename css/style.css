@@ -50,6 +50,24 @@ footer{
     justify-content: center
 }
 
+.flex-basis-20{
+    flex-basis: 20%;
+}
+
+.flex-basis-40{
+    flex-basis: 40%;
+}
+
+.flex-basis-50{
+    flex-basis: 50%;
+}
+
+.flex-basis-60{
+    flex-basis: 60%;
+}
+
+
+
 /*Header*/
 
 .header-bar{
@@ -57,19 +75,6 @@ footer{
     height: 100%;
     justify-content: center;
 }
-
-.logo{
-    flex-basis: 20%;
-}
-
-.nav{
-    flex-basis: 40%;
-}
-
-.login{
-    flex-basis: 20%;
-}
-
 
 /*Footer*/
 
@@ -101,7 +106,6 @@ footer{
 }
 
 .box-blue div{
-    width: 60%;
     background-color: #E75480;
 }
 
@@ -112,16 +116,13 @@ footer{
 
 .main-box > div {
     display: flex;
-    flex-basis: 50%;
 }
 
 .column-pink{
-    flex-basis: 40%;
     background-color: lightpink;
 }
 
 .column-blue{
-    flex-basis: 60%;
     background-color: #007fff;
 }
 
@@ -130,12 +131,10 @@ footer{
 }
 
 .box-big div{
-    flex-basis: 50%;
     background-color: green;
 }
 
 .box-multicolumn > div {
-    flex-basis: 50%;
     display: flex;
 }
 
